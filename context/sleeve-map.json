@@ -1,0 +1,11 @@
+{
+  "foundation": ["SGOV", "WEEK", "GBIL"],
+  "amplifier": ["TQQQ", "UPRO", "TNA"],
+  "yield": [
+    "YMAX", "YMAG", "QQQY", "YSPY", "IWMY", "SPYT",
+    "XDTE", "XPAY", "EGGY", "QDTE", "GLDY", "AIPI",
+    "USOY", "AMDY", "FIAT", "WNTR", "CRSH", "MSTZ",
+    "ECAT", "CLM", "CRF", "XOMO"
+  ],
+  "growth": ["RMBS", "TER", "LUNR", "HUN", "THQ", "IBIT", "CCJ", "INTC", "DIOD", "MU", "SNDK", "VISN", "MCHP", "SPCE", "SWMR", "XRX", "SMCI", "PLTR", "RDDT", "MSFY", "RGTI", "VRNS", "AMD", "HOOD", "NBIS", "PL", "QBTS", "QTUM", "PDYN"]
+}

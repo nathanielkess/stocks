@@ -1,0 +1,6726 @@
+{
+  "schema_version": "1",
+  "updated": "2026-06-24",
+  "tickers": {
+    "ABBV": {
+      "ticker": "ABBV",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 10,
+      "current_price": 216.49,
+      "coil_metrics": {
+        "coil_spread_pct": 3.42,
+        "price_vs_150d_pct": 1.2,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 65.5,
+        "ema10": 221.34,
+        "ema20": 219.46,
+        "ema50": 215.63,
+        "ema150": 213.93
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AFL": {
+      "ticker": "AFL",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 6,
+      "current_price": 115.47,
+      "coil_metrics": {
+        "coil_spread_pct": 4.04,
+        "price_vs_150d_pct": 3.46,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 50.6,
+        "ema10": 116.27,
+        "ema20": 115.89,
+        "ema50": 114.58,
+        "ema150": 111.6
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AIG": {
+      "ticker": "AIG",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 76.53,
+      "coil_metrics": {
+        "coil_spread_pct": 1.54,
+        "price_vs_150d_pct": 0.46,
+        "ema150_slope_class": "flat",
+        "coil_score": 70.8,
+        "ema10": 75.17,
+        "ema20": 75.0,
+        "ema50": 75.32,
+        "ema150": 76.18
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 2.53,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 76.18,
+        "coil_floor": 71.67
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 2.53,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ALGN": {
+      "ticker": "ALGN",
+      "group": "Medical Devices & Equipment",
+      "sector": "Health Care",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 5,
+      "current_price": 168.49,
+      "coil_metrics": {
+        "coil_spread_pct": 2.3,
+        "price_vs_150d_pct": -0.93,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 82.6,
+        "ema10": 173.95,
+        "ema20": 172.57,
+        "ema50": 172.29,
+        "ema150": 170.07
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.57,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "AMGN": {
+      "ticker": "AMGN",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 347.01,
+      "coil_metrics": {
+        "coil_spread_pct": 2.67,
+        "price_vs_150d_pct": 3.46,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 65.0,
+        "ema10": 344.67,
+        "ema20": 342.71,
+        "ema50": 341.6,
+        "ema150": 335.41
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 0.92,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AMT": {
+      "ticker": "AMT",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 13,
+      "current_price": 176.05,
+      "coil_metrics": {
+        "coil_spread_pct": 1.98,
+        "price_vs_150d_pct": -2.38,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 65.3,
+        "ema10": 183.81,
+        "ema20": 183.73,
+        "ema50": 181.12,
+        "ema150": 180.34
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "APO": {
+      "ticker": "APO",
+      "group": "Asset Management & Capital Markets",
+      "sector": "Financials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 4,
+      "current_price": 127.57,
+      "coil_metrics": {
+        "coil_spread_pct": 2.22,
+        "price_vs_150d_pct": 1.16,
+        "ema150_slope_class": "flat",
+        "coil_score": 50.3,
+        "ema10": 128.24,
+        "ema20": 128.32,
+        "ema50": 125.49,
+        "ema150": 126.11
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 2,
+        "vol_mult": 1.19,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 126.07,
+        "coil_floor": 122.44
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.19,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AVB": {
+      "ticker": "AVB",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 182.24,
+      "coil_metrics": {
+        "coil_spread_pct": 2.2,
+        "price_vs_150d_pct": 1.6,
+        "ema150_slope_class": "flat",
+        "coil_score": 46.8,
+        "ema10": 182.56,
+        "ema20": 183.39,
+        "ema50": 181.41,
+        "ema150": 179.38
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.05,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 179.34,
+        "coil_floor": 177.19
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.05,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BA": {
+      "ticker": "BA",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 5,
+      "current_price": 216.71,
+      "coil_metrics": {
+        "coil_spread_pct": 0.93,
+        "price_vs_150d_pct": -1.38,
+        "ema150_slope_class": "flat",
+        "coil_score": 83.8,
+        "ema10": 220.95,
+        "ema20": 221.21,
+        "ema50": 221.77,
+        "ema150": 219.74
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.64,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "group": "Banks - Diversified",
+      "sector": "Financials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 51.6,
+      "coil_metrics": {
+        "coil_spread_pct": 0.82,
+        "price_vs_150d_pct": 1.2,
+        "ema150_slope_class": "flat",
+        "coil_score": 74.6,
+        "ema10": 51.29,
+        "ema20": 51.4,
+        "ema50": 51.41,
+        "ema150": 50.99
+      },
+      "breakout": {
+        "breakout_date": "2026-05-29",
+        "days_ago": 0,
+        "vol_mult": 1.65,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 50.99,
+        "coil_floor": 49.3
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.65,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BBAI": {
+      "ticker": "BBAI",
+      "group": "AI & Data Infrastructure - Small Cap",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 5.04,
+      "coil_metrics": {
+        "coil_spread_pct": 9.69,
+        "price_vs_150d_pct": 8.99,
+        "ema150_slope_class": "declining",
+        "coil_score": 24.9,
+        "ema10": 4.44,
+        "ema20": 4.26,
+        "ema50": 4.14,
+        "ema150": 4.62
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 1,
+        "vol_mult": 1.6,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 4.62,
+        "coil_floor": 3.73
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.6,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BMRN": {
+      "ticker": "BMRN",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 7,
+      "current_price": 56.5,
+      "coil_metrics": {
+        "coil_spread_pct": 1.71,
+        "price_vs_150d_pct": 0.92,
+        "ema150_slope_class": "flat",
+        "coil_score": 65.6,
+        "ema10": 55.64,
+        "ema20": 55.25,
+        "ema50": 55.02,
+        "ema150": 55.99
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.85,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 55.99,
+        "coil_floor": 52.2
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.37,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.83,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BMY": {
+      "ticker": "BMY",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 55.53,
+      "coil_metrics": {
+        "coil_spread_pct": 2.6,
+        "price_vs_150d_pct": 0.26,
+        "ema150_slope_class": "flat",
+        "coil_score": 39.8,
+        "ema10": 55.57,
+        "ema20": 56.05,
+        "ema50": 56.83,
+        "ema150": 55.39
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 1.01,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 55.39,
+        "coil_floor": 53.44
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 1.01,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BOOT": {
+      "ticker": "BOOT",
+      "group": "",
+      "sector": "",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 173.56,
+      "coil_metrics": {
+        "coil_spread_pct": 3.05,
+        "price_vs_150d_pct": 2.63,
+        "ema150_slope_class": "flat",
+        "coil_score": 69.3,
+        "ema10": 170.59,
+        "ema20": 167.81,
+        "ema50": 165.29,
+        "ema150": 169.12
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.4,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 168.93,
+        "coil_floor": 137.76
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.11,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.78,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.68,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.4,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BRK-B": {
+      "ticker": "BRK-B",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 492.81,
+      "coil_metrics": {
+        "coil_spread_pct": 1.24,
+        "price_vs_150d_pct": 1.45,
+        "ema150_slope_class": "flat",
+        "coil_score": 81.7,
+        "ema10": 489.34,
+        "ema20": 486.37,
+        "ema50": 483.23,
+        "ema150": 485.75
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.7,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.11,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-05",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BROS": {
+      "ticker": "BROS",
+      "group": "Restaurants & Leisure - Small Cap",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 7,
+      "current_price": 56.25,
+      "coil_metrics": {
+        "coil_spread_pct": 2.72,
+        "price_vs_150d_pct": 1.37,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 96.3,
+        "ema10": 56.0,
+        "ema20": 55.3,
+        "ema50": 54.47,
+        "ema150": 55.49
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 0.84,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BRZE": {
+      "ticker": "BRZE",
+      "group": "Software - Small Cap",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-08",
+      "days_in_state": 2,
+      "current_price": 22.91,
+      "coil_metrics": {
+        "coil_spread_pct": 6.02,
+        "price_vs_150d_pct": -5.28,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 90.8,
+        "ema10": 24.02,
+        "ema20": 23.57,
+        "ema50": 22.81,
+        "ema150": 24.19
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.0,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-01",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "BURL": {
+      "ticker": "BURL",
+      "group": "Retail - Discretionary",
+      "sector": "Consumer Discretionary",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-08",
+      "days_in_state": 3,
+      "current_price": 317.05,
+      "coil_metrics": {
+        "coil_spread_pct": 4.73,
+        "price_vs_150d_pct": 4.7,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 55.6,
+        "ema10": 317.83,
+        "ema20": 315.26,
+        "ema50": 314.68,
+        "ema150": 302.82
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.56,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "CB": {
+      "ticker": "CB",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 4,
+      "current_price": 323.4,
+      "coil_metrics": {
+        "coil_spread_pct": 3.1,
+        "price_vs_150d_pct": 2.67,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 66.4,
+        "ema10": 325.01,
+        "ema20": 323.56,
+        "ema50": 323.03,
+        "ema150": 315.0
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.88,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-07",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "CBRL": {
+      "ticker": "CBRL",
+      "group": "Restaurants & Leisure - Small Cap",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 9,
+      "current_price": 34.21,
+      "coil_metrics": {
+        "coil_spread_pct": 6.25,
+        "price_vs_150d_pct": 4.48,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 75.5,
+        "ema10": 33.39,
+        "ema20": 32.56,
+        "ema50": 31.25,
+        "ema150": 32.74
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CCI": {
+      "ticker": "CCI",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-17",
+      "days_in_state": 11,
+      "current_price": 85.77,
+      "coil_metrics": {
+        "coil_spread_pct": 2.14,
+        "price_vs_150d_pct": -2.27,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 62.1,
+        "ema10": 89.37,
+        "ema20": 89.6,
+        "ema50": 88.41,
+        "ema150": 87.76
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CDE": {
+      "ticker": "CDE",
+      "group": "Metals & Mining - Small Cap",
+      "sector": "Materials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 0,
+      "current_price": 19.32,
+      "coil_metrics": {
+        "coil_spread_pct": 3.16,
+        "price_vs_150d_pct": 4.5,
+        "ema150_slope_class": "flat",
+        "coil_score": 22.1,
+        "ema10": 18.34,
+        "ema20": 18.39,
+        "ema50": 18.95,
+        "ema150": 18.49
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 1,
+        "vol_mult": 0.9,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 18.48,
+        "coil_floor": 16.53
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "CHD": {
+      "ticker": "CHD",
+      "group": "Consumer Staples - Household & Personal",
+      "sector": "Consumer Staples",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 96.48,
+      "coil_metrics": {
+        "coil_spread_pct": 2.12,
+        "price_vs_150d_pct": 2.28,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 66.3,
+        "ema10": 96.37,
+        "ema20": 96.24,
+        "ema50": 95.75,
+        "ema150": 94.33
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.89,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 94.33,
+        "coil_floor": 92.57
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.29,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.89,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CINF": {
+      "ticker": "CINF",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 4,
+      "current_price": 162.25,
+      "coil_metrics": {
+        "coil_spread_pct": 1.33,
+        "price_vs_150d_pct": 1.03,
+        "ema150_slope_class": "flat",
+        "coil_score": 43.0,
+        "ema10": 161.76,
+        "ema20": 162.46,
+        "ema50": 162.76,
+        "ema150": 160.59
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 2,
+        "vol_mult": 1.32,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 160.51,
+        "coil_floor": 155.61
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.32,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CL": {
+      "ticker": "CL",
+      "group": "Consumer Staples - Household & Personal",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 2,
+      "current_price": 89.48,
+      "coil_metrics": {
+        "coil_spread_pct": 3.48,
+        "price_vs_150d_pct": 3.6,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 60.4,
+        "ema10": 89.49,
+        "ema20": 89.0,
+        "ema50": 88.09,
+        "ema150": 86.37
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "COST": {
+      "ticker": "COST",
+      "group": "Consumer Staples - Retail",
+      "sector": "Consumer Staples",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 982.35,
+      "coil_metrics": {
+        "coil_spread_pct": 1.86,
+        "price_vs_150d_pct": 0.48,
+        "ema150_slope_class": "flat",
+        "coil_score": 42.6,
+        "ema10": 979.3,
+        "ema20": 988.87,
+        "ema50": 996.01,
+        "ema150": 977.7
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 0,
+        "vol_mult": 0.69,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 977.7,
+        "coil_floor": 936.51
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 0.68,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-12",
+          "vol_mult": 0.69,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CRCL": {
+      "ticker": "CRCL",
+      "group": "FinTech - Small Cap",
+      "sector": "Financials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-02",
+      "days_in_state": 1,
+      "current_price": 100.85,
+      "coil_metrics": {
+        "coil_spread_pct": 3.52,
+        "price_vs_150d_pct": -6.81,
+        "ema150_slope_class": "flat",
+        "coil_score": 12.5,
+        "ema10": 108.14,
+        "ema20": 109.37,
+        "ema50": 105.82,
+        "ema150": 108.22
+      },
+      "breakout": {
+        "breakout_date": "2026-05-29",
+        "days_ago": 2,
+        "vol_mult": 1.38,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 108.37,
+        "coil_floor": 89.9
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.38,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CVNA": {
+      "ticker": "CVNA",
+      "group": "Autos & EV",
+      "sector": "Consumer Discretionary",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 0,
+      "current_price": 73.0,
+      "coil_metrics": {
+        "coil_spread_pct": 1.43,
+        "price_vs_150d_pct": 1.7,
+        "ema150_slope_class": "declining",
+        "coil_score": 33.0,
+        "ema10": 70.74,
+        "ema20": 71.35,
+        "ema50": 71.7,
+        "ema150": 71.78
+      },
+      "breakout": {
+        "breakout_date": "2026-05-27",
+        "days_ago": 2,
+        "vol_mult": 1.02,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 71.74,
+        "coil_floor": 61.09
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.02,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DLTR": {
+      "ticker": "DLTR",
+      "group": "Consumer Staples - Retail",
+      "sector": "Consumer Staples",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 4,
+      "current_price": 113.41,
+      "coil_metrics": {
+        "coil_spread_pct": 4.63,
+        "price_vs_150d_pct": 5.2,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 67.0,
+        "ema10": 111.38,
+        "ema20": 108.85,
+        "ema50": 106.14,
+        "ema150": 107.8
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.14,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 107.64,
+        "coil_floor": 88.26
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 3.45,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "EGO": {
+      "ticker": "EGO",
+      "group": "Metals & Mining - Small Cap",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 31.43,
+      "coil_metrics": {
+        "coil_spread_pct": 3.88,
+        "price_vs_150d_pct": -5.46,
+        "ema150_slope_class": "flat",
+        "coil_score": 72.6,
+        "ema10": 32.17,
+        "ema20": 32.02,
+        "ema50": 32.78,
+        "ema150": 33.24
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-15",
+          "vol_mult": 1.58,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EL": {
+      "ticker": "EL",
+      "group": "Consumer Staples - Household & Personal",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 83.76,
+      "coil_metrics": {
+        "coil_spread_pct": 4.23,
+        "price_vs_150d_pct": -4.6,
+        "ema150_slope_class": "flat",
+        "coil_score": 51.1,
+        "ema10": 85.32,
+        "ema20": 85.01,
+        "ema50": 84.26,
+        "ema150": 87.8
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.1,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.75,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EXC": {
+      "ticker": "EXC",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 46.62,
+      "coil_metrics": {
+        "coil_spread_pct": 1.16,
+        "price_vs_150d_pct": 2.76,
+        "ema150_slope_class": "flat",
+        "coil_score": 81.9,
+        "ema10": 45.91,
+        "ema20": 45.62,
+        "ema50": 45.67,
+        "ema150": 45.37
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.03,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.01,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "FSLY": {
+      "ticker": "FSLY",
+      "group": "AI & Data Infrastructure - Small Cap",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-02",
+      "days_in_state": 1,
+      "current_price": 20.77,
+      "coil_metrics": {
+        "coil_spread_pct": 16.09,
+        "price_vs_150d_pct": 16.84,
+        "ema150_slope_class": "flat",
+        "coil_score": -176.5,
+        "ema10": 18.43,
+        "ema20": 19.45,
+        "ema50": 21.12,
+        "ema150": 17.78
+      },
+      "breakout": {
+        "breakout_date": "2026-05-29",
+        "days_ago": 2,
+        "vol_mult": 0.58,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 17.72,
+        "coil_floor": 15.7
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 0.58,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "FSM": {
+      "ticker": "FSM",
+      "group": "Metals & Mining - Small Cap",
+      "sector": "Materials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 1,
+      "current_price": 9.26,
+      "coil_metrics": {
+        "coil_spread_pct": 4.98,
+        "price_vs_150d_pct": -4.28,
+        "ema150_slope_class": "declining",
+        "coil_score": -2.5,
+        "ema10": 9.21,
+        "ema20": 9.31,
+        "ema50": 9.67,
+        "ema150": 9.67
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 0.96,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 9.68,
+        "coil_floor": 8.09
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.12,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-16",
+          "vol_mult": 0.96,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-01",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "GD": {
+      "ticker": "GD",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 350.34,
+      "coil_metrics": {
+        "coil_spread_pct": 3.16,
+        "price_vs_150d_pct": 2.9,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 74.5,
+        "ema10": 351.54,
+        "ema20": 349.11,
+        "ema50": 345.7,
+        "ema150": 340.46
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.3,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "GLPI": {
+      "ticker": "GLPI",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 9,
+      "current_price": 44.59,
+      "coil_metrics": {
+        "coil_spread_pct": 2.2,
+        "price_vs_150d_pct": -1.59,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 64.4,
+        "ema10": 46.12,
+        "ema20": 46.29,
+        "ema50": 46.22,
+        "ema150": 45.31
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "GPRO": {
+      "ticker": "GPRO",
+      "group": "Retail Discretionary - Small Cap",
+      "sector": "Consumer Discretionary",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 0,
+      "current_price": 1.25,
+      "coil_metrics": {
+        "coil_spread_pct": 4.99,
+        "price_vs_150d_pct": 3.91,
+        "ema150_slope_class": "declining",
+        "coil_score": -21.4,
+        "ema10": 1.17,
+        "ema20": 1.18,
+        "ema50": 1.14,
+        "ema150": 1.2
+      },
+      "breakout": {
+        "breakout_date": "2026-05-27",
+        "days_ago": 2,
+        "vol_mult": 1.06,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 1.2,
+        "coil_floor": 0.94
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.06,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "GTLS": {
+      "ticker": "GTLS",
+      "group": "Industrial Machinery - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-08",
+      "days_in_state": 8,
+      "current_price": 207.31,
+      "coil_metrics": {
+        "coil_spread_pct": 1.85,
+        "price_vs_150d_pct": 1.72,
+        "ema150_slope_class": "flat",
+        "coil_score": 61.8,
+        "ema10": 207.62,
+        "ema20": 207.64,
+        "ema50": 207.53,
+        "ema150": 203.8
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "HALO": {
+      "ticker": "HALO",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 10,
+      "current_price": 69.62,
+      "coil_metrics": {
+        "coil_spread_pct": 2.39,
+        "price_vs_150d_pct": 2.6,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 57.7,
+        "ema10": 69.52,
+        "ema20": 69.3,
+        "ema50": 68.46,
+        "ema150": 67.85
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-01",
+          "vol_mult": 1.27,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-03",
+          "vol_mult": 1.08,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "HOOD": {
+      "ticker": "HOOD",
+      "group": "Financial Services & Payments",
+      "sector": "Financials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-14",
+      "days_in_state": 6,
+      "current_price": 93.19,
+      "coil_metrics": {
+        "coil_spread_pct": 6.67,
+        "price_vs_150d_pct": 5.51,
+        "ema150_slope_class": "flat",
+        "coil_score": 53.0,
+        "ema10": 87.22,
+        "ema20": 84.55,
+        "ema50": 82.1,
+        "ema150": 88.32
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 1.38,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 88.26,
+        "coil_floor": 73.18
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.76,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.38,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "HSY": {
+      "ticker": "HSY",
+      "group": "Consumer Staples - Food & Beverage",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-03",
+      "days_in_state": 2,
+      "current_price": 183.2,
+      "coil_metrics": {
+        "coil_spread_pct": 2.56,
+        "price_vs_150d_pct": -5.35,
+        "ema150_slope_class": "flat",
+        "coil_score": 55.8,
+        "ema10": 189.17,
+        "ema20": 190.02,
+        "ema50": 193.86,
+        "ema150": 193.56
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 0.98,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "group": "IT Services & Consulting",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 264.94,
+      "coil_metrics": {
+        "coil_spread_pct": 2.9,
+        "price_vs_150d_pct": 1.84,
+        "ema150_slope_class": "flat",
+        "coil_score": 22.1,
+        "ema10": 265.77,
+        "ema20": 266.39,
+        "ema50": 258.71,
+        "ema150": 260.14
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 1.29,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 260.14,
+        "coil_floor": 243.68
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.22,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 1.29,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "IMSR": {
+      "ticker": "IMSR",
+      "group": "Uranium & Nuclear - Small Cap",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 7.68,
+      "coil_metrics": {
+        "coil_spread_pct": 10.84,
+        "price_vs_150d_pct": -9.16,
+        "ema150_slope_class": "declining",
+        "coil_score": -36.9,
+        "ema10": 7.77,
+        "ema20": 7.76,
+        "ema50": 7.62,
+        "ema150": 8.45
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 0.98,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 8.47,
+        "coil_floor": 6.1
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.99,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 0.98,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "ITGR": {
+      "ticker": "ITGR",
+      "group": "Medical Devices - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 19,
+      "current_price": 89.54,
+      "coil_metrics": {
+        "coil_spread_pct": 1.96,
+        "price_vs_150d_pct": 0.78,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 60.1,
+        "ema10": 90.6,
+        "ema20": 90.47,
+        "ema50": 89.1,
+        "ema150": 88.85
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "JNJ": {
+      "ticker": "JNJ",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-02",
+      "days_in_state": 3,
+      "current_price": 222.89,
+      "coil_metrics": {
+        "coil_spread_pct": 4.73,
+        "price_vs_150d_pct": 2.02,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 36.1,
+        "ema10": 226.87,
+        "ema20": 227.4,
+        "ema50": 229.02,
+        "ema150": 218.49
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "MAA": {
+      "ticker": "MAA",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 4,
+      "current_price": 133.89,
+      "coil_metrics": {
+        "coil_spread_pct": 2.55,
+        "price_vs_150d_pct": 2.09,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 62.9,
+        "ema10": 134.56,
+        "ema20": 133.93,
+        "ema50": 131.52,
+        "ema150": 131.14
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 1.67,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-05",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "MCO": {
+      "ticker": "MCO",
+      "group": "Asset Management & Capital Markets",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 443.97,
+      "coil_metrics": {
+        "coil_spread_pct": 2.33,
+        "price_vs_150d_pct": -3.58,
+        "ema150_slope_class": "flat",
+        "coil_score": 62.5,
+        "ema10": 450.45,
+        "ema20": 450.24,
+        "ema50": 450.1,
+        "ema150": 460.46
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-01",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.34,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "MDB": {
+      "ticker": "MDB",
+      "group": "Software - Infrastructure",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 335.55,
+      "coil_metrics": {
+        "coil_spread_pct": 7.1,
+        "price_vs_150d_pct": 10.41,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 70.5,
+        "ema10": 316.81,
+        "ema20": 305.16,
+        "ema50": 293.0,
+        "ema150": 303.91
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 1,
+        "vol_mult": 5.33,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 303.49,
+        "coil_floor": 244.88
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 5.33,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "MDLZ": {
+      "ticker": "MDLZ",
+      "group": "Consumer Staples - Food & Beverage",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 10,
+      "current_price": 60.12,
+      "coil_metrics": {
+        "coil_spread_pct": 3.82,
+        "price_vs_150d_pct": 1.23,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 52.9,
+        "ema10": 61.68,
+        "ema20": 61.65,
+        "ema50": 60.7,
+        "ema150": 59.39
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "MGNI": {
+      "ticker": "MGNI",
+      "group": "Software - Small Cap",
+      "sector": "Technology",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 5,
+      "current_price": 14.63,
+      "coil_metrics": {
+        "coil_spread_pct": 5.83,
+        "price_vs_150d_pct": 1.6,
+        "ema150_slope_class": "flat",
+        "coil_score": 93.4,
+        "ema10": 14.41,
+        "ema20": 14.04,
+        "ema50": 13.56,
+        "ema150": 14.4
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.07,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-01",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "group": "Software - Infrastructure",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-08",
+      "days_in_state": 3,
+      "current_price": 416.67,
+      "coil_metrics": {
+        "coil_spread_pct": 3.22,
+        "price_vs_150d_pct": -3.08,
+        "ema150_slope_class": "flat",
+        "coil_score": 82.3,
+        "ema10": 428.31,
+        "ema20": 424.27,
+        "ema50": 416.5,
+        "ema150": 429.9
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.3,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "NIO": {
+      "ticker": "NIO",
+      "group": "Autos & EV",
+      "sector": "Consumer Discretionary",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-01",
+      "days_in_state": 0,
+      "current_price": 5.98,
+      "coil_metrics": {
+        "coil_spread_pct": 3.66,
+        "price_vs_150d_pct": 5.96,
+        "ema150_slope_class": "flat",
+        "coil_score": -17.3,
+        "ema10": 5.71,
+        "ema20": 5.82,
+        "ema50": 5.86,
+        "ema150": 5.64
+      },
+      "breakout": {
+        "breakout_date": "2026-06-01",
+        "days_ago": 0,
+        "vol_mult": 1.5,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 5.64,
+        "coil_floor": 5.12
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 2.37,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-01",
+          "vol_mult": 1.5,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-01",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "group": "Software - Infrastructure",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 124.37,
+      "coil_metrics": {
+        "coil_spread_pct": 18.08,
+        "price_vs_150d_pct": 1.02,
+        "ema150_slope_class": "declining",
+        "coil_score": -31.2,
+        "ema10": 105.08,
+        "ema20": 100.62,
+        "ema50": 101.09,
+        "ema150": 123.11
+      },
+      "breakout": {
+        "breakout_date": "2026-05-29",
+        "days_ago": 0,
+        "vol_mult": 2.37,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 123.11,
+        "coil_floor": 85.44
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.37,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "NVO": {
+      "ticker": "NVO",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 47.42,
+      "coil_metrics": {
+        "coil_spread_pct": 5.15,
+        "price_vs_150d_pct": 3.58,
+        "ema150_slope_class": "declining",
+        "coil_score": 44.4,
+        "ema10": 44.51,
+        "ema20": 44.09,
+        "ema50": 43.34,
+        "ema150": 45.78
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.35,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 45.76,
+        "coil_floor": 41.0
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.35,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PD": {
+      "ticker": "PD",
+      "group": "Software - Small Cap",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-08",
+      "days_in_state": 3,
+      "current_price": 9.25,
+      "coil_metrics": {
+        "coil_spread_pct": 19.21,
+        "price_vs_150d_pct": -2.19,
+        "ema150_slope_class": "flat",
+        "coil_score": 86.6,
+        "ema10": 8.91,
+        "ema20": 8.24,
+        "ema50": 7.68,
+        "ema150": 9.46
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 1,
+        "vol_mult": 0.84,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 9.46,
+        "coil_floor": 6.41
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 4.97,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.84,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "PEG": {
+      "ticker": "PEG",
+      "group": "Utilities - Data Center & Nuclear",
+      "sector": "Utilities",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 81.39,
+      "coil_metrics": {
+        "coil_spread_pct": 0.92,
+        "price_vs_150d_pct": 2.15,
+        "ema150_slope_class": "flat",
+        "coil_score": 88.4,
+        "ema10": 79.87,
+        "ema20": 79.22,
+        "ema50": 79.13,
+        "ema150": 79.68
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 2.39,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 79.64,
+        "coil_floor": 75.81
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 2.39,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "group": "IT Services & Consulting",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 156.54,
+      "coil_metrics": {
+        "coil_spread_pct": 6.25,
+        "price_vs_150d_pct": 4.95,
+        "ema150_slope_class": "declining",
+        "coil_score": 22.1,
+        "ema10": 140.6,
+        "ema20": 139.37,
+        "ema50": 141.78,
+        "ema150": 149.16
+      },
+      "breakout": {
+        "breakout_date": "2026-05-29",
+        "days_ago": 0,
+        "vol_mult": 2.19,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 149.16,
+        "coil_floor": 128.75
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.19,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "PPG": {
+      "ticker": "PPG",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-11",
+      "days_in_state": 7,
+      "current_price": 112.97,
+      "coil_metrics": {
+        "coil_spread_pct": 3.69,
+        "price_vs_150d_pct": 4.16,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 72.0,
+        "ema10": 112.63,
+        "ema20": 111.01,
+        "ema50": 109.5,
+        "ema150": 108.45
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PSA": {
+      "ticker": "PSA",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-03",
+      "days_in_state": 4,
+      "current_price": 301.97,
+      "coil_metrics": {
+        "coil_spread_pct": 4.06,
+        "price_vs_150d_pct": 4.12,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 44.1,
+        "ema10": 302.19,
+        "ema20": 302.29,
+        "ema50": 298.74,
+        "ema150": 290.02
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "QLYS": {
+      "ticker": "QLYS",
+      "group": "Cybersecurity",
+      "sector": "Technology",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 112.33,
+      "coil_metrics": {
+        "coil_spread_pct": 7.23,
+        "price_vs_150d_pct": 3.28,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 48.0,
+        "ema10": 111.02,
+        "ema20": 108.52,
+        "ema50": 102.9,
+        "ema150": 108.76
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.8,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 108.76,
+        "coil_floor": 98.28
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.23,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.8,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RDDT": {
+      "ticker": "RDDT",
+      "group": "Internet Content & Commerce",
+      "sector": "Communication Services",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 7,
+      "current_price": 165.63,
+      "coil_metrics": {
+        "coil_spread_pct": 4.22,
+        "price_vs_150d_pct": -1.9,
+        "ema150_slope_class": "flat",
+        "coil_score": 54.4,
+        "ema10": 170.65,
+        "ema20": 168.89,
+        "ema50": 163.66,
+        "ema150": 168.83
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 0.99,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 168.86,
+        "coil_floor": 139.55
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.53,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 0.99,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "RIVN": {
+      "ticker": "RIVN",
+      "group": "Autos & EV",
+      "sector": "Consumer Discretionary",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 4,
+      "current_price": 14.89,
+      "coil_metrics": {
+        "coil_spread_pct": 1.82,
+        "price_vs_150d_pct": -4.27,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 64.2,
+        "ema10": 15.82,
+        "ema20": 15.82,
+        "ema50": 15.65,
+        "ema150": 15.55
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 1.91,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "RUN": {
+      "ticker": "RUN",
+      "group": "Clean Energy & Utilities - Renewables",
+      "sector": "Energy",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-04",
+      "days_in_state": 3,
+      "current_price": 14.82,
+      "coil_metrics": {
+        "coil_spread_pct": 5.15,
+        "price_vs_150d_pct": -1.32,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 104.7,
+        "ema10": 15.03,
+        "ema20": 14.61,
+        "ema50": 14.26,
+        "ema150": 15.02
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SAIL": {
+      "ticker": "SAIL",
+      "group": "Cybersecurity - Small Cap",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 0,
+      "current_price": 18.83,
+      "coil_metrics": {
+        "coil_spread_pct": 10.2,
+        "price_vs_150d_pct": 20.37,
+        "ema150_slope_class": "flat",
+        "coil_score": 129.0,
+        "ema10": 15.67,
+        "ema20": 14.47,
+        "ema50": 13.75,
+        "ema150": 15.64
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 1,
+        "vol_mult": 1.06,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 15.6,
+        "coil_floor": 11.08
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.06,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "SJM": {
+      "ticker": "SJM",
+      "group": "Consumer Staples - Food & Beverage",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-10",
+      "days_in_state": 1,
+      "current_price": 101.77,
+      "coil_metrics": {
+        "coil_spread_pct": 2.05,
+        "price_vs_150d_pct": 1.2,
+        "ema150_slope_class": "flat",
+        "coil_score": 68.1,
+        "ema10": 101.86,
+        "ema20": 101.05,
+        "ema50": 99.77,
+        "ema150": 100.56
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 0.93,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SO": {
+      "ticker": "SO",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 94.93,
+      "coil_metrics": {
+        "coil_spread_pct": 1.51,
+        "price_vs_150d_pct": 3.13,
+        "ema150_slope_class": "flat",
+        "coil_score": 73.4,
+        "ema10": 93.48,
+        "ema20": 93.18,
+        "ema50": 93.18,
+        "ema150": 92.05
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.01,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.12,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SYY": {
+      "ticker": "SYY",
+      "group": "Consumer Staples - Retail",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 79.28,
+      "coil_metrics": {
+        "coil_spread_pct": 2.12,
+        "price_vs_150d_pct": 2.74,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 86.9,
+        "ema10": 78.43,
+        "ema20": 77.48,
+        "ema50": 76.75,
+        "ema150": 77.16
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.75,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TDG": {
+      "ticker": "TDG",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 1297.68,
+      "coil_metrics": {
+        "coil_spread_pct": 3.4,
+        "price_vs_150d_pct": 2.91,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 83.9,
+        "ema10": 1283.89,
+        "ema20": 1262.0,
+        "ema50": 1239.73,
+        "ema150": 1260.93
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.07,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.69,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-15",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TJX": {
+      "ticker": "TJX",
+      "group": "Retail - Discretionary",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-04",
+      "days_in_state": 5,
+      "current_price": 158.63,
+      "coil_metrics": {
+        "coil_spread_pct": 2.54,
+        "price_vs_150d_pct": 4.55,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 61.4,
+        "ema10": 155.76,
+        "ema20": 155.15,
+        "ema50": 155.34,
+        "ema150": 151.73
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TMC": {
+      "ticker": "TMC",
+      "group": "Rare Earths & Critical Minerals - Small Cap",
+      "sector": "Materials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
+      "days_in_state": 1,
+      "current_price": 6.05,
+      "coil_metrics": {
+        "coil_spread_pct": 4.47,
+        "price_vs_150d_pct": 4.84,
+        "ema150_slope_class": "declining",
+        "coil_score": 47.2,
+        "ema10": 5.67,
+        "ema20": 5.54,
+        "ema50": 5.5,
+        "ema150": 5.77
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 1,
+        "vol_mult": 2.02,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 5.77,
+        "coil_floor": 4.84
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 2.02,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-05-31",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "TOL": {
+      "ticker": "TOL",
+      "group": "Homebuilders",
+      "sector": "Consumer Discretionary",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-11",
+      "days_in_state": 0,
+      "current_price": 147.21,
+      "coil_metrics": {
+        "coil_spread_pct": 1.03,
+        "price_vs_150d_pct": 5.95,
+        "ema150_slope_class": "flat",
+        "coil_score": 85.7,
+        "ema10": 140.33,
+        "ema20": 138.82,
+        "ema50": 139.1,
+        "ema150": 138.94
+      },
+      "breakout": {
+        "breakout_date": "2026-06-09",
+        "days_ago": 2,
+        "vol_mult": 1.27,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 138.83,
+        "coil_floor": 123.15
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-27",
+          "vol_mult": 1.2,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-02",
+          "vol_mult": 0.61,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.65,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.27,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TRV": {
+      "ticker": "TRV",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-17",
+      "days_in_state": 3,
+      "current_price": 306.07,
+      "coil_metrics": {
+        "coil_spread_pct": 3.69,
+        "price_vs_150d_pct": 4.99,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 62.2,
+        "ema10": 302.81,
+        "ema20": 300.82,
+        "ema50": 299.15,
+        "ema150": 291.53
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-02",
+          "vol_mult": 1.21,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.92,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TTWO": {
+      "ticker": "TTWO",
+      "group": "Interactive Media & Gaming",
+      "sector": "Communication Services",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 2,
+      "current_price": 239.28,
+      "coil_metrics": {
+        "coil_spread_pct": 1.47,
+        "price_vs_150d_pct": 7.81,
+        "ema150_slope_class": "flat",
+        "coil_score": 63.5,
+        "ema10": 223.36,
+        "ema20": 221.94,
+        "ema50": 219.83,
+        "ema150": 221.94
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 1.26,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 221.62,
+        "coil_floor": 206.0
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 2.67,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.26,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-05-29",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "TXRH": {
+      "ticker": "TXRH",
+      "group": "Restaurants & Leisure",
+      "sector": "Consumer Discretionary",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 1,
+      "current_price": 177.75,
+      "coil_metrics": {
+        "coil_spread_pct": 0.48,
+        "price_vs_150d_pct": 4.03,
+        "ema150_slope_class": "flat",
+        "coil_score": 66.2,
+        "ema10": 170.76,
+        "ema20": 170.61,
+        "ema50": 170.0,
+        "ema150": 170.86
+      },
+      "breakout": {
+        "breakout_date": "2026-06-17",
+        "days_ago": 1,
+        "vol_mult": 1.09,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 170.77,
+        "coil_floor": 160.0
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-17",
+          "vol_mult": 1.09,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-18",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "U": {
+      "ticker": "U",
+      "group": "Interactive Media & Gaming",
+      "sector": "Communication Services",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-14",
+      "days_in_state": 5,
+      "current_price": 27.24,
+      "coil_metrics": {
+        "coil_spread_pct": 6.85,
+        "price_vs_150d_pct": -5.44,
+        "ema150_slope_class": "flat",
+        "coil_score": 14.9,
+        "ema10": 28.06,
+        "ema20": 27.97,
+        "ema50": 26.94,
+        "ema150": 28.81
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.27,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "UEC": {
+      "ticker": "UEC",
+      "group": "Uranium & Nuclear Energy",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-02",
+      "days_in_state": 0,
+      "current_price": 15.44,
+      "coil_metrics": {
+        "coil_spread_pct": 3.09,
+        "price_vs_150d_pct": 12.38,
+        "ema150_slope_class": "flat",
+        "coil_score": 23.4,
+        "ema10": 13.93,
+        "ema20": 14.01,
+        "ema50": 14.21,
+        "ema150": 13.74
+      },
+      "breakout": {
+        "breakout_date": "2026-06-02",
+        "days_ago": 0,
+        "vol_mult": 1.5,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 13.74,
+        "coil_floor": 11.78
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-29",
+          "vol_mult": 0.94,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-02",
+          "vol_mult": 1.5,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-02",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "V": {
+      "ticker": "V",
+      "group": "Financial Services & Payments",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 328.48,
+      "coil_metrics": {
+        "coil_spread_pct": 1.31,
+        "price_vs_150d_pct": 1.48,
+        "ema150_slope_class": "flat",
+        "coil_score": 78.2,
+        "ema10": 326.34,
+        "ema20": 324.98,
+        "ema50": 322.04,
+        "ema150": 323.68
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.88,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.78,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-15",
+          "vol_mult": 0.86,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "VICI": {
+      "ticker": "VICI",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-16",
+      "days_in_state": 0,
+      "current_price": 27.99,
+      "coil_metrics": {
+        "coil_spread_pct": 1.62,
+        "price_vs_150d_pct": -1.79,
+        "ema150_slope_class": "flat",
+        "coil_score": 60.5,
+        "ema10": 28.05,
+        "ema20": 28.08,
+        "ema50": 28.18,
+        "ema150": 28.5
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 1,
+        "vol_mult": 1.34,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 28.51,
+        "coil_floor": 27.01
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.34,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "VRNS": {
+      "ticker": "VRNS",
+      "group": "Cybersecurity - Small Cap",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-01",
+      "days_in_state": 1,
+      "current_price": 36.11,
+      "coil_metrics": {
+        "coil_spread_pct": 11.31,
+        "price_vs_150d_pct": 15.41,
+        "ema150_slope_class": "flat",
+        "coil_score": 69.0,
+        "ema10": 31.82,
+        "ema20": 30.0,
+        "ema50": 27.74,
+        "ema150": 31.29
+      },
+      "breakout": {
+        "breakout_date": "2026-05-28",
+        "days_ago": 2,
+        "vol_mult": 0.91,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 31.19,
+        "coil_floor": 26.15
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "VRTX": {
+      "ticker": "VRTX",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-21",
+      "days_in_state": 2,
+      "current_price": 451.63,
+      "coil_metrics": {
+        "coil_spread_pct": 1.18,
+        "price_vs_150d_pct": 1.49,
+        "ema150_slope_class": "flat",
+        "coil_score": 83.6,
+        "ema10": 448.19,
+        "ema20": 444.31,
+        "ema50": 442.85,
+        "ema150": 444.99
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 1.07,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.16,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.65,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.94,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WEN": {
+      "ticker": "WEN",
+      "group": "Restaurants & Leisure",
+      "sector": "Consumer Discretionary",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-03",
+      "days_in_state": 1,
+      "current_price": 6.85,
+      "coil_metrics": {
+        "coil_spread_pct": 7.59,
+        "price_vs_150d_pct": -11.55,
+        "ema150_slope_class": "declining",
+        "coil_score": 5.4,
+        "ema10": 7.37,
+        "ema20": 7.34,
+        "ema50": 7.23,
+        "ema150": 7.74
+      },
+      "breakout": {
+        "breakout_date": "2026-06-01",
+        "days_ago": 2,
+        "vol_mult": 0.44,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 7.76,
+        "coil_floor": 6.25
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-01",
+          "vol_mult": 0.44,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "XEL": {
+      "ticker": "XEL",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 80.33,
+      "coil_metrics": {
+        "coil_spread_pct": 1.51,
+        "price_vs_150d_pct": 3.69,
+        "ema150_slope_class": "flat",
+        "coil_score": 68.3,
+        "ema10": 78.55,
+        "ema20": 78.47,
+        "ema50": 78.69,
+        "ema150": 77.47
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 0.77,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 77.43,
+        "coil_floor": 75.59
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.93,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-10",
+          "vol_mult": 1.23,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 0.77,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-08",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "XPEL": {
+      "ticker": "XPEL",
+      "group": "Industrial Machinery - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-24",
+      "days_in_state": 19,
+      "current_price": 45.96,
+      "coil_metrics": {
+        "coil_spread_pct": 2.1,
+        "price_vs_150d_pct": 3.22,
+        "ema150_slope_class": "flat",
+        "coil_score": 63.2,
+        "ema10": 45.49,
+        "ema20": 45.3,
+        "ema50": 45.12,
+        "ema150": 44.52
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RCAT": {
+      "ticker": "RCAT",
+      "group": "Drones - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-06-14",
+      "days_in_state": 2,
+      "current_price": 11.18,
+      "coil_metrics": {
+        "coil_spread_pct": 3.89,
+        "price_vs_150d_pct": -3.96,
+        "ema150_slope_class": "rising",
+        "coil_score": 56.9,
+        "ema10": 12.08,
+        "ema20": 11.96,
+        "ema50": 11.97,
+        "ema150": 11.64
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 0.65,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 11.65,
+        "coil_floor": 8.35
+      },
+      "breakout_history": [
+        {
+          "date": "2026-05-28",
+          "vol_mult": 7.24,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.65,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-01",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "MSFY": {
+      "ticker": "MSFY",
+      "group": "",
+      "sector": "",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-10",
+      "days_in_state": 4,
+      "current_price": 18.55,
+      "coil_metrics": {
+        "coil_spread_pct": 3.93,
+        "price_vs_150d_pct": -5.1,
+        "ema150_slope_class": "flat",
+        "coil_score": 72.3,
+        "ema10": 19.22,
+        "ema20": 19.11,
+        "ema50": 18.82,
+        "ema150": 19.55
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AIOT": {
+      "ticker": "AIOT",
+      "group": "AI & Data Infrastructure - Small Cap",
+      "sector": "Technology",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 3.85,
+      "coil_metrics": {
+        "coil_spread_pct": 7.46,
+        "price_vs_150d_pct": -3.09,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 62.6,
+        "ema10": 3.97,
+        "ema20": 3.88,
+        "ema50": 3.69,
+        "ema150": 3.97
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.59,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.41,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "APD": {
+      "ticker": "APD",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 282.45,
+      "coil_metrics": {
+        "coil_spread_pct": 1.97,
+        "price_vs_150d_pct": 0.59,
+        "ema150_slope_class": "flat",
+        "coil_score": 53.1,
+        "ema10": 281.67,
+        "ema20": 283.27,
+        "ema50": 286.37,
+        "ema150": 280.79
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.47,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 280.77,
+        "coil_floor": 274.37
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 0.81,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.05,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-17",
+          "vol_mult": 1.45,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.47,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "APTV": {
+      "ticker": "APTV",
+      "group": "Autos & EV",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-21",
+      "days_in_state": 5,
+      "current_price": 63.68,
+      "coil_metrics": {
+        "coil_spread_pct": 6.77,
+        "price_vs_150d_pct": -7.17,
+        "ema150_slope_class": "flat",
+        "coil_score": 14.3,
+        "ema10": 65.89,
+        "ema20": 65.23,
+        "ema50": 64.29,
+        "ema150": 68.6
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-08",
+          "vol_mult": 0.61,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ARES": {
+      "ticker": "ARES",
+      "group": "Asset Management & Capital Markets",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 120.78,
+      "coil_metrics": {
+        "coil_spread_pct": 5.22,
+        "price_vs_150d_pct": -7.02,
+        "ema150_slope_class": "flat",
+        "coil_score": 55.3,
+        "ema10": 127.63,
+        "ema20": 126.94,
+        "ema50": 123.6,
+        "ema150": 129.9
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.78,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AXON": {
+      "ticker": "AXON",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_in_state": 3,
+      "current_price": 471.06,
+      "coil_metrics": {
+        "coil_spread_pct": 13.42,
+        "price_vs_150d_pct": -5.14,
+        "ema150_slope_class": "declining",
+        "coil_score": 71.4,
+        "ema10": 462.73,
+        "ema20": 440.83,
+        "ema50": 433.36,
+        "ema150": 496.59
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 2,
+        "vol_mult": 0.95,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 497.08,
+        "coil_floor": 366.0
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.95,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AZN": {
+      "ticker": "AZN",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_in_state": 1,
+      "current_price": 181.55,
+      "coil_metrics": {
+        "coil_spread_pct": 2.63,
+        "price_vs_150d_pct": -1.16,
+        "ema150_slope_class": "flat",
+        "coil_score": 31.5,
+        "ema10": 182.58,
+        "ema20": 183.99,
+        "ema50": 187.35,
+        "ema150": 183.68
+      },
+      "breakout": {
+        "breakout_date": "2026-06-05",
+        "days_ago": 1,
+        "vol_mult": 1.24,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 183.71,
+        "coil_floor": 174.6
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.24,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CI": {
+      "ticker": "CI",
+      "group": "Health Care Services",
+      "sector": "Health Care",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 283.08,
+      "coil_metrics": {
+        "coil_spread_pct": 2.0,
+        "price_vs_150d_pct": 0.96,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 68.5,
+        "ema10": 286.07,
+        "ema20": 285.79,
+        "ema50": 282.81,
+        "ema150": 280.4
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 0.96,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 280.37,
+        "coil_floor": 268.87
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.54,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 0.96,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-08",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "DHI": {
+      "ticker": "DHI",
+      "group": "Homebuilders",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-17",
+      "days_in_state": 0,
+      "current_price": 152.48,
+      "coil_metrics": {
+        "coil_spread_pct": 2.49,
+        "price_vs_150d_pct": 2.86,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 87.3,
+        "ema10": 151.48,
+        "ema20": 149.25,
+        "ema50": 147.68,
+        "ema150": 148.24
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.01,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DUK": {
+      "ticker": "DUK",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 125.05,
+      "coil_metrics": {
+        "coil_spread_pct": 1.03,
+        "price_vs_150d_pct": 1.42,
+        "ema150_slope_class": "flat",
+        "coil_score": 75.7,
+        "ema10": 124.24,
+        "ema20": 124.08,
+        "ema50": 124.59,
+        "ema150": 123.3
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.06,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.94,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EA": {
+      "ticker": "EA",
+      "group": "Interactive Media & Gaming",
+      "sector": "Communication Services",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 12,
+      "current_price": 203.52,
+      "coil_metrics": {
+        "coil_spread_pct": 2.43,
+        "price_vs_150d_pct": 2.8,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 58.2,
+        "ema10": 202.92,
+        "ema20": 202.6,
+        "ema50": 202.12,
+        "ema150": 197.97
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ED": {
+      "ticker": "ED",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 108.75,
+      "coil_metrics": {
+        "coil_spread_pct": 1.54,
+        "price_vs_150d_pct": 3.0,
+        "ema150_slope_class": "flat",
+        "coil_score": 73.4,
+        "ema10": 107.18,
+        "ema20": 106.89,
+        "ema50": 107.26,
+        "ema150": 105.59
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.65,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.76,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EMN": {
+      "ticker": "EMN",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 69.48,
+      "coil_metrics": {
+        "coil_spread_pct": 2.64,
+        "price_vs_150d_pct": -1.64,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 55.6,
+        "ema10": 72.13,
+        "ema20": 72.47,
+        "ema50": 72.39,
+        "ema150": 70.64
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EMR": {
+      "ticker": "EMR",
+      "group": "Industrial Machinery & Equipment",
+      "sector": "Industrials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 143.07,
+      "coil_metrics": {
+        "coil_spread_pct": 2.11,
+        "price_vs_150d_pct": 3.92,
+        "ema150_slope_class": "flat",
+        "coil_score": 64.5,
+        "ema10": 140.69,
+        "ema20": 139.91,
+        "ema50": 139.25,
+        "ema150": 137.67
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 0.76,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 137.6,
+        "coil_floor": 128.13
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.76,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "GKOS": {
+      "ticker": "GKOS",
+      "group": "Medical Devices - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_in_state": 2,
+      "current_price": 121.96,
+      "coil_metrics": {
+        "coil_spread_pct": 6.03,
+        "price_vs_150d_pct": 6.44,
+        "ema150_slope_class": "flat",
+        "coil_score": -64.9,
+        "ema10": 118.89,
+        "ema20": 121.63,
+        "ema50": 121.94,
+        "ema150": 114.59
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 2,
+        "vol_mult": 1.35,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 114.35,
+        "coil_floor": 99.48
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.35,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "GOLD": {
+      "ticker": "GOLD",
+      "group": "Metals & Mining",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 42.38,
+      "coil_metrics": {
+        "coil_spread_pct": 4.26,
+        "price_vs_150d_pct": 3.32,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 60.9,
+        "ema10": 42.35,
+        "ema20": 42.18,
+        "ema50": 42.83,
+        "ema150": 41.02
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.64,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "INCY": {
+      "ticker": "INCY",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-08",
+      "days_in_state": 0,
+      "current_price": 102.38,
+      "coil_metrics": {
+        "coil_spread_pct": 2.8,
+        "price_vs_150d_pct": 7.41,
+        "ema150_slope_class": "flat",
+        "coil_score": 52.9,
+        "ema10": 98.18,
+        "ema20": 97.59,
+        "ema50": 97.17,
+        "ema150": 95.32
+      },
+      "breakout": {
+        "breakout_date": "2026-06-03",
+        "days_ago": 2,
+        "vol_mult": 1.69,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 95.14,
+        "coil_floor": 92.18
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 1.69,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-08",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "JBLU": {
+      "ticker": "JBLU",
+      "group": "Airlines - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-17",
+      "days_in_state": 0,
+      "current_price": 5.13,
+      "coil_metrics": {
+        "coil_spread_pct": 1.98,
+        "price_vs_150d_pct": 3.58,
+        "ema150_slope_class": "flat",
+        "coil_score": 66.7,
+        "ema10": 5.05,
+        "ema20": 5.01,
+        "ema50": 4.98,
+        "ema150": 4.95
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.27,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "LII": {
+      "ticker": "LII",
+      "group": "Construction & Engineering",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 523.59,
+      "coil_metrics": {
+        "coil_spread_pct": 2.45,
+        "price_vs_150d_pct": 2.29,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 75.9,
+        "ema10": 522.7,
+        "ema20": 517.17,
+        "ema50": 509.89,
+        "ema150": 511.84
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-08",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "O": {
+      "ticker": "O",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 61.53,
+      "coil_metrics": {
+        "coil_spread_pct": 1.74,
+        "price_vs_150d_pct": 1.64,
+        "ema150_slope_class": "flat",
+        "coil_score": 65.3,
+        "ema10": 61.19,
+        "ema20": 61.29,
+        "ema50": 61.61,
+        "ema150": 60.54
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.14,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 60.52,
+        "coil_floor": 59.48
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.08,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.36,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "group": "Pharma",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-21",
+      "days_in_state": 2,
+      "current_price": 25.21,
+      "coil_metrics": {
+        "coil_spread_pct": 1.4,
+        "price_vs_150d_pct": -1.7,
+        "ema150_slope_class": "flat",
+        "coil_score": 68.1,
+        "ema10": 25.8,
+        "ema20": 25.84,
+        "ema50": 26.0,
+        "ema150": 25.65
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.05,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.36,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PH": {
+      "ticker": "PH",
+      "group": "Industrial Machinery & Equipment",
+      "sector": "Industrials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 903.48,
+      "coil_metrics": {
+        "coil_spread_pct": 1.64,
+        "price_vs_150d_pct": 2.41,
+        "ema150_slope_class": "flat",
+        "coil_score": 79.8,
+        "ema10": 882.46,
+        "ema20": 878.56,
+        "ema50": 893.36,
+        "ema150": 882.22
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 0.63,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 881.94,
+        "coil_floor": 815.01
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.24,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.63,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PHM": {
+      "ticker": "PHM",
+      "group": "Homebuilders",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 126.55,
+      "coil_metrics": {
+        "coil_spread_pct": 2.38,
+        "price_vs_150d_pct": 4.03,
+        "ema150_slope_class": "flat",
+        "coil_score": 89.2,
+        "ema10": 123.6,
+        "ema20": 121.58,
+        "ema50": 120.59,
+        "ema150": 121.65
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PRAX": {
+      "ticker": "PRAX",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 305.37,
+      "coil_metrics": {
+        "coil_spread_pct": 9.02,
+        "price_vs_150d_pct": 11.19,
+        "ema150_slope_class": "flat",
+        "coil_score": -49.3,
+        "ema10": 281.48,
+        "ema20": 287.17,
+        "ema50": 302.19,
+        "ema150": 274.64
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.35,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 273.84,
+        "coil_floor": 238.77
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 1.6,
+          "type": "confirmed"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.35,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RPAY": {
+      "ticker": "RPAY",
+      "group": "FinTech - Small Cap",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-11",
+      "days_in_state": 0,
+      "current_price": 3.38,
+      "coil_metrics": {
+        "coil_spread_pct": 4.91,
+        "price_vs_150d_pct": -7.57,
+        "ema150_slope_class": "flat",
+        "coil_score": 34.5,
+        "ema10": 3.56,
+        "ema20": 3.58,
+        "ema50": 3.49,
+        "ema150": 3.66
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.76,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RRC": {
+      "ticker": "RRC",
+      "group": "Oil & Gas E&P - Small Cap",
+      "sector": "Energy",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_in_state": 3,
+      "current_price": 39.11,
+      "coil_metrics": {
+        "coil_spread_pct": 3.26,
+        "price_vs_150d_pct": -1.78,
+        "ema150_slope_class": "flat",
+        "coil_score": 17.2,
+        "ema10": 39.83,
+        "ema20": 40.42,
+        "ema50": 41.09,
+        "ema150": 39.82
+      },
+      "breakout": {
+        "breakout_date": "2026-06-04",
+        "days_ago": 2,
+        "vol_mult": 1.12,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 39.84,
+        "coil_floor": 38.82
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.12,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SBUX": {
+      "ticker": "SBUX",
+      "group": "Restaurants & Leisure",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-17",
+      "days_in_state": 0,
+      "current_price": 99.82,
+      "coil_metrics": {
+        "coil_spread_pct": 4.75,
+        "price_vs_150d_pct": 4.67,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 43.3,
+        "ema10": 100.04,
+        "ema20": 100.11,
+        "ema50": 99.65,
+        "ema150": 95.36
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.99,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.37,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SRE": {
+      "ticker": "SRE",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 92.29,
+      "coil_metrics": {
+        "coil_spread_pct": 1.35,
+        "price_vs_150d_pct": 1.84,
+        "ema150_slope_class": "flat",
+        "coil_score": 70.9,
+        "ema10": 91.31,
+        "ema20": 91.23,
+        "ema50": 91.87,
+        "ema150": 90.62
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 2.62,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 90.59,
+        "coil_floor": 87.1
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.79,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-18",
+          "vol_mult": 2.62,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-18",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "VTR": {
+      "ticker": "VTR",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-11",
+      "days_in_state": 0,
+      "current_price": 83.89,
+      "coil_metrics": {
+        "coil_spread_pct": 4.27,
+        "price_vs_150d_pct": 3.61,
+        "ema150_slope_class": "flat",
+        "coil_score": -3.8,
+        "ema10": 82.91,
+        "ema20": 83.92,
+        "ema50": 84.55,
+        "ema150": 80.97
+      },
+      "breakout": {
+        "breakout_date": "2026-06-09",
+        "days_ago": 2,
+        "vol_mult": 0.9,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 80.88,
+        "coil_floor": 78.08
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 0.86,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "VZ": {
+      "ticker": "VZ",
+      "group": "Telecom & Media",
+      "sector": "Communication Services",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_in_state": 1,
+      "current_price": 45.44,
+      "coil_metrics": {
+        "coil_spread_pct": 4.26,
+        "price_vs_150d_pct": 0.52,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 21.9,
+        "ema10": 46.56,
+        "ema20": 46.99,
+        "ema50": 47.14,
+        "ema150": 45.2
+      },
+      "breakout": {
+        "breakout_date": "2026-06-05",
+        "days_ago": 1,
+        "vol_mult": 1.1,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 45.2,
+        "coil_floor": 44.3
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-05",
+          "vol_mult": 1.1,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WEC": {
+      "ticker": "WEC",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 114.14,
+      "coil_metrics": {
+        "coil_spread_pct": 1.73,
+        "price_vs_150d_pct": 2.7,
+        "ema150_slope_class": "flat",
+        "coil_score": 70.9,
+        "ema10": 113.11,
+        "ema20": 112.76,
+        "ema50": 112.71,
+        "ema150": 111.14
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.26,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WELL": {
+      "ticker": "WELL",
+      "group": "REITs - Data Center & Industrial",
+      "sector": "Real Estate",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-08",
+      "days_in_state": 0,
+      "current_price": 206.93,
+      "coil_metrics": {
+        "coil_spread_pct": 5.28,
+        "price_vs_150d_pct": 4.82,
+        "ema150_slope_class": "just_rising",
+        "coil_score": -14.1,
+        "ema10": 205.5,
+        "ema20": 208.33,
+        "ema50": 208.16,
+        "ema150": 197.41
+      },
+      "breakout": {
+        "breakout_date": "2026-06-03",
+        "days_ago": 2,
+        "vol_mult": 1.48,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 197.23,
+        "coil_floor": 194.67
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-03",
+          "vol_mult": 1.48,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WFC": {
+      "ticker": "WFC",
+      "group": "Banks - Diversified",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 84.13,
+      "coil_metrics": {
+        "coil_spread_pct": 3.0,
+        "price_vs_150d_pct": 3.41,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 84.1,
+        "ema10": 82.93,
+        "ema20": 81.53,
+        "ema50": 80.4,
+        "ema150": 81.35
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 1.09,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-09",
+          "vol_mult": 0.92,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WPM": {
+      "ticker": "WPM",
+      "group": "Metals & Mining",
+      "sector": "Materials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-21",
+      "days_in_state": 6,
+      "current_price": 122.57,
+      "coil_metrics": {
+        "coil_spread_pct": 5.28,
+        "price_vs_150d_pct": -2.78,
+        "ema150_slope_class": "declining",
+        "coil_score": -13.3,
+        "ema10": 121.82,
+        "ema20": 123.46,
+        "ema50": 128.29,
+        "ema150": 126.08
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 1.25,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 126.13,
+        "coil_floor": 106.82
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-04",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.25,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ALB": {
+      "ticker": "ALB",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "days_in_state": 2,
+      "current_price": 170.42,
+      "coil_metrics": {
+        "coil_spread_pct": 9.15,
+        "price_vs_150d_pct": 7.22,
+        "ema150_slope_class": "flat",
+        "coil_score": -101.8,
+        "ema10": 161.86,
+        "ema20": 167.82,
+        "ema50": 174.54,
+        "ema150": 158.94
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 0,
+        "vol_mult": 1.53,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 158.94,
+        "coil_floor": 146.39
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.53,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-14",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "APP": {
+      "ticker": "APP",
+      "group": "Interactive Media & Gaming",
+      "sector": "Communication Services",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 0,
+      "current_price": 520.86,
+      "coil_metrics": {
+        "coil_spread_pct": 5.28,
+        "price_vs_150d_pct": 4.86,
+        "ema150_slope_class": "rising",
+        "coil_score": -1.4,
+        "ema10": 524.26,
+        "ema20": 524.26,
+        "ema50": 502.35,
+        "ema150": 496.74
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 1,
+        "vol_mult": 0.9,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 496.41,
+        "coil_floor": 450.32
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-16",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "ARQT": {
+      "ticker": "ARQT",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "days_in_state": 0,
+      "current_price": 24.38,
+      "coil_metrics": {
+        "coil_spread_pct": 3.06,
+        "price_vs_150d_pct": 6.04,
+        "ema150_slope_class": "flat",
+        "coil_score": 84.4,
+        "ema10": 22.75,
+        "ema20": 22.25,
+        "ema50": 22.54,
+        "ema150": 22.99
+      },
+      "breakout": {
+        "breakout_date": "2026-06-10",
+        "days_ago": 2,
+        "vol_mult": 0.76,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 22.95,
+        "coil_floor": 19.3
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 0.76,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AXP": {
+      "ticker": "AXP",
+      "group": "Financial Services & Payments",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 337.78,
+      "coil_metrics": {
+        "coil_spread_pct": 3.26,
+        "price_vs_150d_pct": 4.07,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 94.8,
+        "ema10": 331.63,
+        "ema20": 325.33,
+        "ema50": 320.6,
+        "ema150": 324.57
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 0.77,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CAVA": {
+      "ticker": "CAVA",
+      "group": "Restaurants & Leisure",
+      "sector": "Consumer Discretionary",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "days_in_state": 0,
+      "current_price": 90.99,
+      "coil_metrics": {
+        "coil_spread_pct": 4.16,
+        "price_vs_150d_pct": 18.18,
+        "ema150_slope_class": "flat",
+        "coil_score": 30.2,
+        "ema10": 80.73,
+        "ema20": 79.93,
+        "ema50": 80.79,
+        "ema150": 77.0
+      },
+      "breakout": {
+        "breakout_date": "2026-06-10",
+        "days_ago": 2,
+        "vol_mult": 1.12,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 76.65,
+        "coil_floor": 69.33
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 1.12,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CRWV": {
+      "ticker": "CRWV",
+      "group": "AI & Cloud Infrastructure",
+      "sector": "Technology",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 100.55,
+      "coil_metrics": {
+        "coil_spread_pct": 5.64,
+        "price_vs_150d_pct": 0.88,
+        "ema150_slope_class": "just_rising",
+        "coil_score": -40.6,
+        "ema10": 102.36,
+        "ema20": 105.34,
+        "ema50": 104.93,
+        "ema150": 99.67
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 0,
+        "vol_mult": 1.3,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 99.67,
+        "coil_floor": 91.02
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.3,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DKNG": {
+      "ticker": "DKNG",
+      "group": "",
+      "sector": "",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "days_in_state": 2,
+      "current_price": 29.0,
+      "coil_metrics": {
+        "coil_spread_pct": 8.7,
+        "price_vs_150d_pct": 4.3,
+        "ema150_slope_class": "declining",
+        "coil_score": 50.1,
+        "ema10": 27.21,
+        "ema20": 26.21,
+        "ema50": 25.28,
+        "ema150": 27.8
+      },
+      "breakout": {
+        "breakout_date": "2026-06-10",
+        "days_ago": 2,
+        "vol_mult": 2.4,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 27.76,
+        "coil_floor": 23.54
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 2.4,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-14",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "DPRO": {
+      "ticker": "DPRO",
+      "group": "Drones - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 5.89,
+      "coil_metrics": {
+        "coil_spread_pct": 3.61,
+        "price_vs_150d_pct": -7.88,
+        "ema150_slope_class": "flat",
+        "coil_score": -1.8,
+        "ema10": 6.28,
+        "ema20": 6.29,
+        "ema50": 6.18,
+        "ema150": 6.39
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 2,
+        "vol_mult": 0.65,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 6.4,
+        "coil_floor": 5.06
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.65,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ECL": {
+      "ticker": "ECL",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 268.66,
+      "coil_metrics": {
+        "coil_spread_pct": 1.5,
+        "price_vs_150d_pct": 0.93,
+        "ema150_slope_class": "flat",
+        "coil_score": 95.1,
+        "ema10": 266.32,
+        "ema20": 262.89,
+        "ema50": 262.28,
+        "ema150": 266.19
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-15",
+          "vol_mult": 1.11,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ELS": {
+      "ticker": "ELS",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 62.6,
+      "coil_metrics": {
+        "coil_spread_pct": 0.31,
+        "price_vs_150d_pct": -0.57,
+        "ema150_slope_class": "flat",
+        "coil_score": 84.9,
+        "ema10": 62.91,
+        "ema20": 62.88,
+        "ema50": 63.08,
+        "ema150": 62.96
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ETOR": {
+      "ticker": "ETOR",
+      "group": "Cryptocurrency - Small Cap",
+      "sector": "Financials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 1,
+      "current_price": 38.52,
+      "coil_metrics": {
+        "coil_spread_pct": 3.84,
+        "price_vs_150d_pct": 1.23,
+        "ema150_slope_class": "flat",
+        "coil_score": 26.4,
+        "ema10": 38.97,
+        "ema20": 39.06,
+        "ema50": 37.58,
+        "ema150": 38.05
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 0.45,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 38.04,
+        "coil_floor": 37.41
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.45,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "EW": {
+      "ticker": "EW",
+      "group": "Medical Devices & Equipment",
+      "sector": "Health Care",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 85.11,
+      "coil_metrics": {
+        "coil_spread_pct": 4.37,
+        "price_vs_150d_pct": 3.46,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 49.0,
+        "ema10": 85.98,
+        "ema20": 85.34,
+        "ema50": 83.84,
+        "ema150": 82.26
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "FIVE": {
+      "ticker": "FIVE",
+      "group": "Retail - Discretionary",
+      "sector": "Consumer Discretionary",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 193.92,
+      "coil_metrics": {
+        "coil_spread_pct": 7.08,
+        "price_vs_150d_pct": -3.58,
+        "ema150_slope_class": "flat",
+        "coil_score": -78.2,
+        "ema10": 200.37,
+        "ema20": 206.74,
+        "ema50": 214.11,
+        "ema150": 201.12
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 2,
+        "vol_mult": 0.83,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 201.25,
+        "coil_floor": 184.68
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.83,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "FLY": {
+      "ticker": "FLY",
+      "group": "Aerospace & Defense - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 31.87,
+      "coil_metrics": {
+        "coil_spread_pct": 18.0,
+        "price_vs_150d_pct": -5.97,
+        "ema150_slope_class": "rising",
+        "coil_score": -247.6,
+        "ema10": 37.75,
+        "ema20": 39.63,
+        "ema50": 37.89,
+        "ema150": 33.89
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 1.14,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 33.92,
+        "coil_floor": 31.91
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.14,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "IPGP": {
+      "ticker": "IPGP",
+      "group": "Semiconductors - Small Cap",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 1,
+      "current_price": 114.65,
+      "coil_metrics": {
+        "coil_spread_pct": 7.16,
+        "price_vs_150d_pct": 8.52,
+        "ema150_slope_class": "rising",
+        "coil_score": -19.1,
+        "ema10": 112.35,
+        "ema20": 113.15,
+        "ema50": 113.86,
+        "ema150": 105.65
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 0.57,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 105.53,
+        "coil_floor": 99.52
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.57,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ITW": {
+      "ticker": "ITW",
+      "group": "Industrial Machinery & Equipment",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 261.64,
+      "coil_metrics": {
+        "coil_spread_pct": 1.04,
+        "price_vs_150d_pct": 0.95,
+        "ema150_slope_class": "flat",
+        "coil_score": 95.4,
+        "ema10": 260.33,
+        "ema20": 257.62,
+        "ema50": 258.05,
+        "ema150": 259.19
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-15",
+          "vol_mult": 1.25,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "KMB": {
+      "ticker": "KMB",
+      "group": "Consumer Staples - Household & Personal",
+      "sector": "Consumer Staples",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 103.95,
+      "coil_metrics": {
+        "coil_spread_pct": 2.83,
+        "price_vs_150d_pct": 2.43,
+        "ema150_slope_class": "flat",
+        "coil_score": 85.7,
+        "ema10": 101.61,
+        "ema20": 100.17,
+        "ema50": 98.67,
+        "ema150": 101.48
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.86,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 101.48,
+        "coil_floor": 92.06
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 0.73,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.86,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "LMT": {
+      "ticker": "LMT",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-21",
+      "days_in_state": 2,
+      "current_price": 510.95,
+      "coil_metrics": {
+        "coil_spread_pct": 3.0,
+        "price_vs_150d_pct": -5.84,
+        "ema150_slope_class": "flat",
+        "coil_score": 60.0,
+        "ema10": 527.56,
+        "ema20": 527.29,
+        "ema50": 539.68,
+        "ema150": 542.62
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.2,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "NKTX": {
+      "ticker": "NKTX",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "days_in_state": 1,
+      "current_price": 2.86,
+      "coil_metrics": {
+        "coil_spread_pct": 10.55,
+        "price_vs_150d_pct": 14.64,
+        "ema150_slope_class": "just_rising",
+        "coil_score": -131.4,
+        "ema10": 2.72,
+        "ema20": 2.8,
+        "ema50": 2.76,
+        "ema150": 2.49
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 1,
+        "vol_mult": 2.18,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 2.49,
+        "coil_floor": 2.32
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 2.18,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-14",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "ONDS": {
+      "ticker": "ONDS",
+      "group": "Drones - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-17",
+      "days_in_state": 0,
+      "current_price": 9.12,
+      "coil_metrics": {
+        "coil_spread_pct": 9.01,
+        "price_vs_150d_pct": -2.86,
+        "ema150_slope_class": "flat",
+        "coil_score": -129.5,
+        "ema10": 9.84,
+        "ema20": 10.17,
+        "ema50": 10.21,
+        "ema150": 9.39
+      },
+      "breakout": {
+        "breakout_date": "2026-06-15",
+        "days_ago": 2,
+        "vol_mult": 0.7,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 9.39,
+        "coil_floor": 8.97
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.49,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-15",
+          "vol_mult": 0.7,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PDYN": {
+      "ticker": "PDYN",
+      "group": "Drones - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-21",
+      "days_in_state": 1,
+      "current_price": 7.0,
+      "coil_metrics": {
+        "coil_spread_pct": 1.68,
+        "price_vs_150d_pct": 3.42,
+        "ema150_slope_class": "declining",
+        "coil_score": -20.7,
+        "ema10": 6.79,
+        "ema20": 6.89,
+        "ema50": 6.81,
+        "ema150": 6.77
+      },
+      "breakout": {
+        "breakout_date": "2026-06-17",
+        "days_ago": 1,
+        "vol_mult": 4.64,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 6.77,
+        "coil_floor": 5.76
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.93,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-17",
+          "vol_mult": 4.64,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-17",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "PG": {
+      "ticker": "PG",
+      "group": "Consumer Staples - Household & Personal",
+      "sector": "Consumer Staples",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 6,
+      "current_price": 150.86,
+      "coil_metrics": {
+        "coil_spread_pct": 1.8,
+        "price_vs_150d_pct": 2.31,
+        "ema150_slope_class": "flat",
+        "coil_score": 87.7,
+        "ema10": 149.09,
+        "ema20": 147.56,
+        "ema50": 146.37,
+        "ema150": 147.46
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PGR": {
+      "ticker": "PGR",
+      "group": "Insurance",
+      "sector": "Financials",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 215.69,
+      "coil_metrics": {
+        "coil_spread_pct": 2.31,
+        "price_vs_150d_pct": 4.47,
+        "ema150_slope_class": "flat",
+        "coil_score": 79.4,
+        "ema10": 205.72,
+        "ema20": 203.01,
+        "ema50": 201.48,
+        "ema150": 206.46
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.04,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 206.33,
+        "coil_floor": 189.2
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RGTI": {
+      "ticker": "RGTI",
+      "group": "Quantum Computing",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 3,
+      "current_price": 22.7,
+      "coil_metrics": {
+        "coil_spread_pct": 7.19,
+        "price_vs_150d_pct": 12.54,
+        "ema150_slope_class": "just_rising",
+        "coil_score": -49.9,
+        "ema10": 21.8,
+        "ema20": 21.67,
+        "ema50": 20.28,
+        "ema150": 20.17
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 2,
+        "vol_mult": 0.75,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 20.13,
+        "coil_floor": 15.46
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.75,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "RTX": {
+      "ticker": "RTX",
+      "group": "Aerospace & Defense",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 186.39,
+      "coil_metrics": {
+        "coil_spread_pct": 1.41,
+        "price_vs_150d_pct": 2.68,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 92.7,
+        "ema10": 184.15,
+        "ema20": 182.12,
+        "ema50": 182.58,
+        "ema150": 181.52
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.13,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SUI": {
+      "ticker": "SUI",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-21",
+      "days_in_state": 3,
+      "current_price": 118.46,
+      "coil_metrics": {
+        "coil_spread_pct": 2.14,
+        "price_vs_150d_pct": -5.67,
+        "ema150_slope_class": "flat",
+        "coil_score": 62.3,
+        "ema10": 123.04,
+        "ema20": 123.62,
+        "ema50": 125.01,
+        "ema150": 125.57
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 1.39,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TLN": {
+      "ticker": "TLN",
+      "group": "Utilities - Data Center & Nuclear",
+      "sector": "Utilities",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 0,
+      "current_price": 386.21,
+      "coil_metrics": {
+        "coil_spread_pct": 2.65,
+        "price_vs_150d_pct": 8.79,
+        "ema150_slope_class": "flat",
+        "coil_score": 29.9,
+        "ema10": 365.03,
+        "ema20": 365.23,
+        "ema50": 360.69,
+        "ema150": 355.0
+      },
+      "breakout": {
+        "breakout_date": "2026-06-12",
+        "days_ago": 1,
+        "vol_mult": 1.02,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 354.58,
+        "coil_floor": 309.36
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.02,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "group": "Autos & EV",
+      "sector": "Consumer Discretionary",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 381.61,
+      "coil_metrics": {
+        "coil_spread_pct": 1.28,
+        "price_vs_150d_pct": -5.12,
+        "ema150_slope_class": "flat",
+        "coil_score": 50.8,
+        "ema10": 400.02,
+        "ema20": 404.9,
+        "ema50": 404.86,
+        "ema150": 402.21
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.02,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 402.49,
+        "coil_floor": 380.15
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-12",
+          "vol_mult": 1.36,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.02,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TT": {
+      "ticker": "TT",
+      "group": "Construction & Engineering",
+      "sector": "Industrials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 2,
+      "current_price": 458.25,
+      "coil_metrics": {
+        "coil_spread_pct": 4.24,
+        "price_vs_150d_pct": 4.15,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 42.2,
+        "ema10": 458.51,
+        "ema20": 459.42,
+        "ema50": 457.51,
+        "ema150": 439.97
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "USAR": {
+      "ticker": "USAR",
+      "group": "Rare Earths & Critical Minerals - Small Cap",
+      "sector": "Materials",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 1,
+      "current_price": 23.02,
+      "coil_metrics": {
+        "coil_spread_pct": 15.44,
+        "price_vs_150d_pct": 12.08,
+        "ema150_slope_class": "rising",
+        "coil_score": -194.8,
+        "ema10": 23.37,
+        "ema20": 24.09,
+        "ema50": 23.29,
+        "ema150": 20.54
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 2,
+        "vol_mult": 0.81,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 20.49,
+        "coil_floor": 19.36
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 0.81,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "group": "Consumer Staples - Retail",
+      "sector": "Consumer Staples",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 119.42,
+      "coil_metrics": {
+        "coil_spread_pct": 2.86,
+        "price_vs_150d_pct": 0.11,
+        "ema150_slope_class": "flat",
+        "coil_score": 43.2,
+        "ema10": 119.01,
+        "ema20": 120.08,
+        "ema50": 122.43,
+        "ema150": 119.29
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.91,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 119.29,
+        "coil_floor": 112.73
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-10",
+          "vol_mult": 0.86,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.91,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "XYZ": {
+      "ticker": "XYZ",
+      "group": "Financial Services & Payments",
+      "sector": "Financials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-16",
+      "days_in_state": 0,
+      "current_price": 74.35,
+      "coil_metrics": {
+        "coil_spread_pct": 4.76,
+        "price_vs_150d_pct": 10.92,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 8.9,
+        "ema10": 70.53,
+        "ema20": 70.57,
+        "ema50": 69.1,
+        "ema150": 67.03
+      },
+      "breakout": {
+        "breakout_date": "2026-06-11",
+        "days_ago": 2,
+        "vol_mult": 1.01,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 66.9,
+        "coil_floor": 65.77
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.01,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": "2026-06-16",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "YUM": {
+      "ticker": "YUM",
+      "group": "Restaurants & Leisure",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-24",
+      "days_in_state": 3,
+      "current_price": 151.6,
+      "coil_metrics": {
+        "coil_spread_pct": 0.71,
+        "price_vs_150d_pct": -0.88,
+        "ema150_slope_class": "flat",
+        "coil_score": 85.9,
+        "ema10": 152.35,
+        "ema20": 152.13,
+        "ema50": 153.21,
+        "ema150": 152.95
+      },
+      "breakout": null,
+      "breakout_history": [
+        {
+          "date": "2026-06-11",
+          "vol_mult": 1.05,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AEP": {
+      "ticker": "AEP",
+      "group": "Utilities - Electric",
+      "sector": "Utilities",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 127.69,
+      "coil_metrics": {
+        "coil_spread_pct": 3.5,
+        "price_vs_150d_pct": 2.4,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 47.3,
+        "ema10": 128.42,
+        "ema20": 128.6,
+        "ema50": 129.17,
+        "ema150": 124.7
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AG": {
+      "ticker": "AG",
+      "group": "Metals & Mining - Small Cap",
+      "sector": "Materials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 18.0,
+      "coil_metrics": {
+        "coil_spread_pct": 8.58,
+        "price_vs_150d_pct": -5.55,
+        "ema150_slope_class": "declining",
+        "coil_score": -72.0,
+        "ema10": 18.31,
+        "ema20": 18.8,
+        "ema50": 19.85,
+        "ema150": 19.06
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 0.77,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 19.08,
+        "coil_floor": 15.62
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 0.77,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AMBA": {
+      "ticker": "AMBA",
+      "group": "Semiconductors - Small Cap",
+      "sector": "Technology",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 65.51,
+      "coil_metrics": {
+        "coil_spread_pct": 2.99,
+        "price_vs_150d_pct": -4.46,
+        "ema150_slope_class": "flat",
+        "coil_score": 6.3,
+        "ema10": 68.55,
+        "ema20": 70.51,
+        "ema50": 70.11,
+        "ema150": 68.57
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.13,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 68.58,
+        "coil_floor": 61.8
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.13,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "group": "AI & Cloud Infrastructure",
+      "sector": "Technology",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 234.11,
+      "coil_metrics": {
+        "coil_spread_pct": 4.54,
+        "price_vs_150d_pct": -1.5,
+        "ema150_slope_class": "flat",
+        "coil_score": -2.0,
+        "ema10": 241.21,
+        "ema20": 246.8,
+        "ema50": 248.31,
+        "ema150": 237.67
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.8,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 237.78,
+        "coil_floor": 233.59
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.8,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "ARQQ": {
+      "ticker": "ARQQ",
+      "group": "Quantum Computing - Small Cap",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 24.38,
+      "coil_metrics": {
+        "coil_spread_pct": 13.9,
+        "price_vs_150d_pct": 27.22,
+        "ema150_slope_class": "declining",
+        "coil_score": 45.2,
+        "ema10": 18.21,
+        "ema20": 16.64,
+        "ema50": 15.77,
+        "ema150": 19.16
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 2.6,
+        "is_high_conviction": true,
+        "ema150_at_breakout": 19.05,
+        "coil_floor": 11.8
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 2.6,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ATAI": {
+      "ticker": "ATAI",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 4.06,
+      "coil_metrics": {
+        "coil_spread_pct": 2.46,
+        "price_vs_150d_pct": 1.34,
+        "ema150_slope_class": "flat",
+        "coil_score": -2.6,
+        "ema10": 4.04,
+        "ema20": 4.1,
+        "ema50": 4.11,
+        "ema150": 4.01
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 1.92,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 4.0,
+        "coil_floor": 3.67
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.92,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "AVTX": {
+      "ticker": "AVTX",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 17.83,
+      "coil_metrics": {
+        "coil_spread_pct": 1.94,
+        "price_vs_150d_pct": 17.77,
+        "ema150_slope_class": "flat",
+        "coil_score": 89.1,
+        "ema10": 15.47,
+        "ema20": 15.27,
+        "ema50": 15.49,
+        "ema150": 15.14
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.59,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 15.1,
+        "coil_floor": 12.52
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-17",
+          "vol_mult": 0.85,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.59,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BLK": {
+      "ticker": "BLK",
+      "group": "Asset Management & Capital Markets",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 1015.33,
+      "coil_metrics": {
+        "coil_spread_pct": 0.34,
+        "price_vs_150d_pct": -2.2,
+        "ema150_slope_class": "flat",
+        "coil_score": 90.2,
+        "ema10": 1035.07,
+        "ema20": 1034.79,
+        "ema50": 1034.71,
+        "ema150": 1038.2
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BWXT": {
+      "ticker": "BWXT",
+      "group": "Aerospace & Defense - Small Cap",
+      "sector": "Industrials",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 205.4,
+      "coil_metrics": {
+        "coil_spread_pct": 2.54,
+        "price_vs_150d_pct": 4.32,
+        "ema150_slope_class": "flat",
+        "coil_score": 52.7,
+        "ema10": 196.47,
+        "ema20": 196.72,
+        "ema50": 201.7,
+        "ema150": 196.9
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 0.92,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 196.7,
+        "coil_floor": 179.46
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 0.92,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CCJ": {
+      "ticker": "CCJ",
+      "group": "Uranium & Nuclear Energy",
+      "sector": "Energy",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 108.89,
+      "coil_metrics": {
+        "coil_spread_pct": 3.76,
+        "price_vs_150d_pct": 2.84,
+        "ema150_slope_class": "flat",
+        "coil_score": 24.2,
+        "ema10": 106.37,
+        "ema20": 107.24,
+        "ema50": 109.97,
+        "ema150": 105.88
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 0.94,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 105.82,
+        "coil_floor": 93.83
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 0.94,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DNN": {
+      "ticker": "DNN",
+      "group": "Uranium & Nuclear - Small Cap",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 3.27,
+      "coil_metrics": {
+        "coil_spread_pct": 5.02,
+        "price_vs_150d_pct": -1.7,
+        "ema150_slope_class": "flat",
+        "coil_score": 24.9,
+        "ema10": 3.25,
+        "ema20": 3.28,
+        "ema50": 3.41,
+        "ema150": 3.33
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.7,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 3.33,
+        "coil_floor": 2.8
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.7,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "EQR": {
+      "ticker": "EQR",
+      "group": "REITs - Residential & Specialty",
+      "sector": "Real Estate",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 64.09,
+      "coil_metrics": {
+        "coil_spread_pct": 4.58,
+        "price_vs_150d_pct": 1.47,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 35.9,
+        "ema10": 66.0,
+        "ema20": 66.1,
+        "ema50": 64.97,
+        "ema150": 63.16
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "IDYA": {
+      "ticker": "IDYA",
+      "group": "Biotech - Small Cap",
+      "sector": "Health Care",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 31.23,
+      "coil_metrics": {
+        "coil_spread_pct": 2.85,
+        "price_vs_150d_pct": 2.48,
+        "ema150_slope_class": "flat",
+        "coil_score": 66.6,
+        "ema10": 29.98,
+        "ema20": 29.59,
+        "ema50": 29.91,
+        "ema150": 30.47
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 1.05,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 30.45,
+        "coil_floor": 26.81
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.05,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "KBH": {
+      "ticker": "KBH",
+      "group": "Homebuilders",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 52.73,
+      "coil_metrics": {
+        "coil_spread_pct": 5.52,
+        "price_vs_150d_pct": -3.66,
+        "ema150_slope_class": "flat",
+        "coil_score": 54.3,
+        "ema10": 52.83,
+        "ema20": 52.06,
+        "ema50": 51.82,
+        "ema150": 54.73
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "LZM": {
+      "ticker": "LZM",
+      "group": "Rare Earths & Critical Minerals - Small Cap",
+      "sector": "Materials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 4.25,
+      "coil_metrics": {
+        "coil_spread_pct": 6.48,
+        "price_vs_150d_pct": -8.22,
+        "ema150_slope_class": "declining",
+        "coil_score": -45.5,
+        "ema10": 4.38,
+        "ema20": 4.52,
+        "ema50": 4.65,
+        "ema150": 4.63
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.51,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 4.64,
+        "coil_floor": 3.69
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.51,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "MP": {
+      "ticker": "MP",
+      "group": "Metals & Mining",
+      "sector": "Materials",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 60.88,
+      "coil_metrics": {
+        "coil_spread_pct": 2.67,
+        "price_vs_150d_pct": 2.17,
+        "ema150_slope_class": "declining",
+        "coil_score": -15.7,
+        "ema10": 59.5,
+        "ema20": 60.61,
+        "ema50": 61.13,
+        "ema150": 59.59
+      },
+      "breakout": {
+        "breakout_date": "2026-06-17",
+        "days_ago": 1,
+        "vol_mult": 1.1,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 59.57,
+        "coil_floor": 52.42
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-17",
+          "vol_mult": 1.1,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "NEE": {
+      "ticker": "NEE",
+      "group": "Clean Energy & Utilities - Renewables",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 86.43,
+      "coil_metrics": {
+        "coil_spread_pct": 2.66,
+        "price_vs_150d_pct": -0.18,
+        "ema150_slope_class": "flat",
+        "coil_score": 48.9,
+        "ema10": 86.03,
+        "ema20": 86.54,
+        "ema50": 88.32,
+        "ema150": 86.59
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.62,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 86.6,
+        "coil_floor": 82.96
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.62,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "NNE": {
+      "ticker": "NNE",
+      "group": "Uranium & Nuclear - Small Cap",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 23.9,
+      "coil_metrics": {
+        "coil_spread_pct": 9.47,
+        "price_vs_150d_pct": -12.84,
+        "ema150_slope_class": "declining",
+        "coil_score": -32.2,
+        "ema10": 25.16,
+        "ema20": 25.38,
+        "ema50": 25.4,
+        "ema150": 27.42
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.68,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 27.49,
+        "coil_floor": 21.5
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.68,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "ORLY": {
+      "ticker": "ORLY",
+      "group": "Retail - Discretionary",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 86.84,
+      "coil_metrics": {
+        "coil_spread_pct": 4.3,
+        "price_vs_150d_pct": -6.52,
+        "ema150_slope_class": "flat",
+        "coil_score": 38.9,
+        "ema10": 89.16,
+        "ema20": 89.59,
+        "ema50": 90.79,
+        "ema150": 92.9
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PAAS": {
+      "ticker": "PAAS",
+      "group": "Metals & Mining - Small Cap",
+      "sector": "Materials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 49.0,
+      "coil_metrics": {
+        "coil_spread_pct": 6.96,
+        "price_vs_150d_pct": -4.34,
+        "ema150_slope_class": "declining",
+        "coil_score": -50.2,
+        "ema10": 49.79,
+        "ema20": 51.06,
+        "ema50": 53.21,
+        "ema150": 51.22
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 0.68,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 51.26,
+        "coil_floor": 43.82
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 0.68,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "QUBT": {
+      "ticker": "QUBT",
+      "group": "Quantum Computing - Small Cap",
+      "sector": "Technology",
+      "coil_state": "breakout_pending",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 10.49,
+      "coil_metrics": {
+        "coil_spread_pct": 3.59,
+        "price_vs_150d_pct": 0.67,
+        "ema150_slope_class": "flat",
+        "coil_score": 29.9,
+        "ema10": 10.43,
+        "ema20": 10.48,
+        "ema50": 10.11,
+        "ema150": 10.42
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 0.88,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 10.42,
+        "coil_floor": 9.06
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 0.88,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SCHW": {
+      "ticker": "SCHW",
+      "group": "Banks - Diversified",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 93.17,
+      "coil_metrics": {
+        "coil_spread_pct": 1.96,
+        "price_vs_150d_pct": 0.69,
+        "ema150_slope_class": "flat",
+        "coil_score": 86.0,
+        "ema10": 91.59,
+        "ema20": 90.71,
+        "ema50": 91.0,
+        "ema150": 92.53
+      },
+      "breakout": {
+        "breakout_date": "2026-06-23",
+        "days_ago": 0,
+        "vol_mult": 0.9,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 92.53,
+        "coil_floor": 83.96
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.06,
+          "type": "low_vol"
+        },
+        {
+          "date": "2026-06-23",
+          "vol_mult": 0.9,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "TFC": {
+      "ticker": "TFC",
+      "group": "Banks - Diversified",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 49.67,
+      "coil_metrics": {
+        "coil_spread_pct": 2.92,
+        "price_vs_150d_pct": 4.29,
+        "ema150_slope_class": "just_rising",
+        "coil_score": 57.1,
+        "ema10": 49.07,
+        "ema20": 48.92,
+        "ema50": 48.66,
+        "ema150": 47.63
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "VST": {
+      "ticker": "VST",
+      "group": "Clean Energy & Utilities - Renewables",
+      "sector": "Energy",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 2,
+      "current_price": 162.39,
+      "coil_metrics": {
+        "coil_spread_pct": 3.61,
+        "price_vs_150d_pct": 1.18,
+        "ema150_slope_class": "flat",
+        "coil_score": 75.7,
+        "ema10": 157.7,
+        "ema20": 155.03,
+        "ema50": 154.63,
+        "ema150": 160.5
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.65,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 160.38,
+        "coil_floor": 137.62
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.65,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "WMS": {
+      "ticker": "WMS",
+      "group": "Industrial Machinery & Equipment",
+      "sector": "Industrials",
+      "coil_state": "promoted_stage2a",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 1,
+      "current_price": 140.17,
+      "coil_metrics": {
+        "coil_spread_pct": 3.63,
+        "price_vs_150d_pct": -2.17,
+        "ema150_slope_class": "flat",
+        "coil_score": 67.3,
+        "ema10": 139.23,
+        "ema20": 138.19,
+        "ema50": 140.28,
+        "ema150": 143.29
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.73,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 143.35,
+        "coil_floor": 127.85
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.73,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": "2026-06-21",
+      "promoted_to": {
+        "tier": "active",
+        "active_entry": "stage2a_breakout"
+      }
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "group": "Oil & Gas - E&P",
+      "sector": "Energy",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "days_in_state": 0,
+      "current_price": 137.81,
+      "coil_metrics": {
+        "coil_spread_pct": 5.77,
+        "price_vs_150d_pct": -2.38,
+        "ema150_slope_class": "just_rising",
+        "coil_score": -10.7,
+        "ema10": 144.21,
+        "ema20": 146.93,
+        "ema50": 149.13,
+        "ema150": 141.18
+      },
+      "breakout": {
+        "breakout_date": "2026-06-16",
+        "days_ago": 2,
+        "vol_mult": 1.13,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 141.23,
+        "coil_floor": 137.72
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-16",
+          "vol_mult": 1.13,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "XPOF": {
+      "ticker": "XPOF",
+      "group": "Restaurants & Leisure - Small Cap",
+      "sector": "Consumer Discretionary",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 6.82,
+      "coil_metrics": {
+        "coil_spread_pct": 9.45,
+        "price_vs_150d_pct": -0.08,
+        "ema150_slope_class": "flat",
+        "coil_score": 90.6,
+        "ema10": 6.49,
+        "ema20": 6.23,
+        "ema50": 6.18,
+        "ema150": 6.83
+      },
+      "breakout": {
+        "breakout_date": "2026-06-18",
+        "days_ago": 2,
+        "vol_mult": 1.28,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 6.83,
+        "coil_floor": 5.11
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-18",
+          "vol_mult": 1.28,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "ARRY": {
+      "ticker": "ARRY",
+      "group": "Clean Energy - Small Cap",
+      "sector": "Energy",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 7.9,
+      "coil_metrics": {
+        "coil_spread_pct": 3.67,
+        "price_vs_150d_pct": -4.7,
+        "ema150_slope_class": "declining",
+        "coil_score": 15.8,
+        "ema10": 8.0,
+        "ema20": 8.09,
+        "ema50": 8.15,
+        "ema150": 8.29
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 0.79,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 8.29,
+        "coil_floor": 6.8
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 0.79,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "BX": {
+      "ticker": "BX",
+      "group": "Asset Management & Capital Markets",
+      "sector": "Financials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 120.07,
+      "coil_metrics": {
+        "coil_spread_pct": 6.2,
+        "price_vs_150d_pct": -5.99,
+        "ema150_slope_class": "flat",
+        "coil_score": 54.7,
+        "ema10": 122.0,
+        "ema20": 120.8,
+        "ema50": 120.27,
+        "ema150": 127.72
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "CRML": {
+      "ticker": "CRML",
+      "group": "Rare Earths & Critical Minerals - Small Cap",
+      "sector": "Materials",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 9.71,
+      "coil_metrics": {
+        "coil_spread_pct": 5.48,
+        "price_vs_150d_pct": -5.0,
+        "ema150_slope_class": "flat",
+        "coil_score": -18.3,
+        "ema10": 10.09,
+        "ema20": 10.37,
+        "ema50": 10.63,
+        "ema150": 10.22
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 0.78,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 10.23,
+        "coil_floor": 9.0
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 0.78,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "group": "Telecom & Media",
+      "sector": "Communication Services",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 103.53,
+      "coil_metrics": {
+        "coil_spread_pct": 2.63,
+        "price_vs_150d_pct": -0.9,
+        "ema150_slope_class": "flat",
+        "coil_score": 58.2,
+        "ema10": 101.86,
+        "ema20": 101.75,
+        "ema50": 102.18,
+        "ema150": 104.48
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "DVN": {
+      "ticker": "DVN",
+      "group": "Oil & Gas - E&P",
+      "sector": "Energy",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 43.39,
+      "coil_metrics": {
+        "coil_spread_pct": 5.63,
+        "price_vs_150d_pct": 1.08,
+        "ema150_slope_class": "flat",
+        "coil_score": -12.4,
+        "ema10": 43.58,
+        "ema20": 44.39,
+        "ema50": 45.37,
+        "ema150": 42.93
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 0.96,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 42.92,
+        "coil_floor": 41.52
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 0.96,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "HAL": {
+      "ticker": "HAL",
+      "group": "Oil & Gas - Services",
+      "sector": "Energy",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 35.11,
+      "coil_metrics": {
+        "coil_spread_pct": 10.16,
+        "price_vs_150d_pct": -0.08,
+        "ema150_slope_class": "rising",
+        "coil_score": -82.0,
+        "ema10": 37.03,
+        "ema20": 38.24,
+        "ema50": 38.71,
+        "ema150": 35.14
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.02,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 35.14,
+        "coil_floor": 34.54
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.02,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "HD": {
+      "ticker": "HD",
+      "group": "Retail - Discretionary",
+      "sector": "Consumer Discretionary",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 324.45,
+      "coil_metrics": {
+        "coil_spread_pct": 5.28,
+        "price_vs_150d_pct": -4.32,
+        "ema150_slope_class": "flat",
+        "coil_score": 59.7,
+        "ema10": 325.76,
+        "ema20": 321.97,
+        "ema50": 322.92,
+        "ema150": 339.1
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "PCVX": {
+      "ticker": "PCVX",
+      "group": "Biotech",
+      "sector": "Health Care",
+      "coil_state": "breakout_low_vol",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 51.96,
+      "coil_metrics": {
+        "coil_spread_pct": 3.68,
+        "price_vs_150d_pct": 0.47,
+        "ema150_slope_class": "declining",
+        "coil_score": 57.0,
+        "ema10": 50.09,
+        "ema20": 49.9,
+        "ema50": 51.81,
+        "ema150": 51.72
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.04,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 51.71,
+        "coil_floor": 45.3
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.04,
+          "type": "low_vol"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SHW": {
+      "ticker": "SHW",
+      "group": "Chemicals",
+      "sector": "Materials",
+      "coil_state": "coiling",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 322.9,
+      "coil_metrics": {
+        "coil_spread_pct": 4.23,
+        "price_vs_150d_pct": -1.17,
+        "ema150_slope_class": "flat",
+        "coil_score": 64.5,
+        "ema10": 316.14,
+        "ema20": 313.04,
+        "ema50": 315.39,
+        "ema150": 326.71
+      },
+      "breakout": null,
+      "breakout_history": [],
+      "promoted_at": null,
+      "promoted_to": null
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "group": "AI & Cloud Infrastructure",
+      "sector": "Technology",
+      "coil_state": "failed_breakout",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_in_state": 0,
+      "current_price": 33.32,
+      "coil_metrics": {
+        "coil_spread_pct": 3.9,
+        "price_vs_150d_pct": -1.39,
+        "ema150_slope_class": "declining",
+        "coil_score": -131.7,
+        "ema10": 33.43,
+        "ema20": 34.73,
+        "ema50": 33.72,
+        "ema150": 33.79
+      },
+      "breakout": {
+        "breakout_date": "2026-06-22",
+        "days_ago": 1,
+        "vol_mult": 1.83,
+        "is_high_conviction": false,
+        "ema150_at_breakout": 33.79,
+        "coil_floor": 27.71
+      },
+      "breakout_history": [
+        {
+          "date": "2026-06-22",
+          "vol_mult": 1.83,
+          "type": "confirmed"
+        }
+      ],
+      "promoted_at": null,
+      "promoted_to": null
+    }
+  }
+}
